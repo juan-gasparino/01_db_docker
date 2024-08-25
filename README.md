@@ -1,12 +1,21 @@
-# db_docker
+# DB docker
 3 Docker containers:
-  - [ ] Portainer
-  - [ ] PostgreSQL
-  - [ ] PGAdmin
+  - [x] Portainer
+  - [x] PostgreSQL
+  - [x] PGAdmin
 
 ## Installation
 Install docker in your enviroment
+
 Install docker compose to run the yml file
 
-## Purpose
-Have a test DB enviroment to test your projects with a SQL DB running in docker
+## Dockers
+
+  - Docker portainer (Show your docker in a Web dashboard)
+  - Postgresql docker
+  - PgAdmin (Handle your postgres database)
+
+## Connections
+
+  - Portainer --> https://localhost:9443
+  - Portainer --> http://localhost:15432
